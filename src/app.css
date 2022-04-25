@@ -1,0 +1,107 @@
+.custom-shape-divider-bottom-1650724343 {
+    position: absolute;
+    bottom: 45%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+body{
+    background: rgb(119,119,119);
+    background: -moz-linear-gradient(180deg, rgba(119,119,119,1) 0%, rgba(181,181,181,1) 35%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(119,119,119,1) 0%, rgba(181,181,181,1) 35%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(180deg, rgba(119,119,119,1) 0%, rgba(181,181,181,1) 35%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#777777",endColorstr="#ffffff",GradientType=1);
+    background-repeat:no-repeat ;
+}
+
+.custom-shape-divider-bottom-1650724343 svg {
+    position: relative;
+    display: block;
+    width: calc(155% + 1.3px);
+    height: 147px;
+}
+
+.custom-shape-divider-bottom-1650724343 .shape-fill {
+    fill: #4D70D4;
+}
+
+
+.presale-welcome{
+   
+    text-align: center;
+
+}
+
+.welcome-content{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.spacer{
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-image: url("wave.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   bottom:0;
+   left:0;
+}
+
+#welcome-heading-1{
+    font-size: 2vw;
+    letter-spacing: 2vw;
+}
+
+#welcome-heading-2{
+    font-size: 7vw;
+    letter-spacing: 2vw;
+    color: #3458b9;
+}
+#welcome-heading-3{
+    font-size: 1vw;
+    letter-spacing: 2vw;
+}
+.blurry-logo{
+    position: absolute;
+    z-index: -2;
+    margin-left:20%;
+    margin-top:-10%;
+}
+.presale-tab{
+
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    border:3px solid #4D70D4;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.144);
+    align-items: center;
+}
+.connect-button{
+    background-color: #3458b9;
+    border: 2px solid #3458b9;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    color: white
+}
+@media screen and (max-width:767px) {
+    #welcome-heading-1{
+        font-size: 25px;
+        letter-spacing: 2vw;
+    }
+    
+    #welcome-heading-2{
+        font-size: 60px;
+        letter-spacing: 2vw;
+        color: #3458b9;
+    }
+    #welcome-heading-3{
+        font-size: 15px;
+        letter-spacing: 2vw;
+    }
+}
